@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 // ------------------------------------------------------------
 
-package main
+package testproxy
 
 import (
 	"context"
@@ -55,7 +55,7 @@ func TestCosmosDBTables(t *testing.T) {
 		}()
 	}
 
-	options,err := GetClientOption(tpv,&client)
+	options, err := GetClientOption(tpv, &client)
 	if err != nil {
 		log.Fatal(err)
 	}

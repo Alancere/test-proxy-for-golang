@@ -12,7 +12,7 @@ import (
 func Load(root string) error {
 	envFile, err := os.ReadFile(root)
 	if err != nil {
-		return nil
+		return err
 	}
 	for _, line := range strings.Split(string(envFile), "\n") {
 		splits := strings.Split(line, " ")

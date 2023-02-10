@@ -12,10 +12,8 @@ import (
 	"io"
 	"log"
 	"net/http"
-	"os"
 	"path"
 	"path/filepath"
-	"strings"
 	"testing"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/arm"
@@ -109,11 +107,11 @@ func GetClientOption(tpv *TestProxy, client *http.Client) (*arm.ClientOptions, e
 }
 
 func GetCurrentDirectory() string {
-	root, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	root, err := filepath.Abs(".")
 	if err != nil {
 		log.Fatal(err)
 	}
-	return strings.ReplaceAll(root, "\\", "/")
+	return root
 }
 
 func getRecordingFilePath(recordingPath string, t *testing.T) string {

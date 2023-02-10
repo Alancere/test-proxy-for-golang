@@ -19,10 +19,7 @@ import (
 
 func TestCosmosDBTables(t *testing.T) {
 	root := GetCurrentDirectory()
-	dotenv := filepath.Join(root, ".env")
-	fmt.Println(dotenv)
-
-	err := Load(dotenv)
+	err := Load(filepath.Join(root, ".env"))
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -20,7 +20,7 @@ func Load(root string) error {
 			continue
 		}
 
-		os.Setenv(splits[0], splits[1])
+		os.Setenv(splits[0], strings.TrimSuffix(splits[1],"\r"))
 	}
 
 	return nil

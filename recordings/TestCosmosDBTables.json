@@ -11,7 +11,7 @@
         "Content-Type": "application/json",
         "Dataserviceversion": "3.0",
         "User-Agent": "azsdk-go-aztables/v1.0.1 (go1.19; Windows_NT)",
-        "X-Ms-Date": "Wed, 08 Feb 2023 02:34:34 GMT",
+        "X-Ms-Date": "Wed, 15 Feb 2023 03:36:35 GMT",
         "X-Ms-Version": "2019-02-02"
       },
       "RequestBody": {
@@ -20,8 +20,8 @@
       "StatusCode": 201,
       "ResponseHeaders": {
         "Content-Type": "application/json; odata=minimalmetadata",
-        "Date": "Wed, 08 Feb 2023 02:34:36 GMT",
-        "ETag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A36.6304263Z\u0027\u0022",
+        "Date": "Wed, 15 Feb 2023 03:36:36 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A36.6396423Z\u0027\u0022",
         "Location": "https://zedy-table.table.cosmos.azure.com/Tables(\u0027gocosmosZ\u0027)",
         "Transfer-Encoding": "chunked"
       },
@@ -42,7 +42,7 @@
         "Dataserviceversion": "3.0",
         "Prefer": "return-no-content",
         "User-Agent": "azsdk-go-aztables/v1.0.1 (go1.19; Windows_NT)",
-        "X-Ms-Date": "Wed, 08 Feb 2023 02:34:36 GMT",
+        "X-Ms-Date": "Wed, 15 Feb 2023 03:36:37 GMT",
         "X-Ms-Version": "2019-02-02"
       },
       "RequestBody": {
@@ -55,8 +55,8 @@
       "StatusCode": 204,
       "ResponseHeaders": {
         "Content-Type": "application/json",
-        "Date": "Wed, 08 Feb 2023 02:34:37 GMT",
-        "ETag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A37.2888583Z\u0027\u0022",
+        "Date": "Wed, 15 Feb 2023 03:36:36 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A37.1935239Z\u0027\u0022",
         "Location": "https://zedy-table.table.cosmos.azure.com/gocosmosZ(PartitionKey=\u0027gear-surf-surfboards\u0027,RowKey=\u002768719518388\u0027)",
         "Preference-Applied": "return-no-content"
       },
@@ -71,26 +71,26 @@
         "Authorization": "Sanitized",
         "Dataserviceversion": "3.0",
         "User-Agent": "azsdk-go-aztables/v1.0.1 (go1.19; Windows_NT)",
-        "X-Ms-Date": "Wed, 08 Feb 2023 02:34:37 GMT",
+        "X-Ms-Date": "Wed, 15 Feb 2023 03:36:37 GMT",
         "X-Ms-Version": "2019-02-02"
       },
       "RequestBody": null,
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; odata=minimalmetadata",
-        "Date": "Wed, 08 Feb 2023 02:34:37 GMT",
-        "ETag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A37.2888583Z\u0027\u0022",
+        "Date": "Wed, 15 Feb 2023 03:36:37 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A37.1935239Z\u0027\u0022",
         "Transfer-Encoding": "chunked"
       },
       "ResponseBody": {
         "odata.metadata": "https://zedy-table.table.cosmos.azure.com/gocosmosZ/$metadata#gocosmosZ/@Element",
-        "odata.etag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A37.2888583Z\u0027\u0022",
+        "odata.etag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A37.1935239Z\u0027\u0022",
         "Name": "Ocean Surfboard",
         "PartitionKey": "gear-surf-surfboards",
         "Quantity": 8,
         "RowKey": "68719518388",
         "Sale": true,
-        "Timestamp": "2023-02-08T02:34:37.2888583Z"
+        "Timestamp": "2023-02-15T03:36:37.1935239Z"
       }
     },
     {
@@ -105,7 +105,7 @@
         "Dataserviceversion": "3.0",
         "Prefer": "return-no-content",
         "User-Agent": "azsdk-go-aztables/v1.0.1 (go1.19; Windows_NT)",
-        "X-Ms-Date": "Wed, 08 Feb 2023 02:34:37 GMT",
+        "X-Ms-Date": "Wed, 15 Feb 2023 03:36:37 GMT",
         "X-Ms-Version": "2019-02-02"
       },
       "RequestBody": {
@@ -118,8 +118,8 @@
       "StatusCode": 204,
       "ResponseHeaders": {
         "Content-Type": "application/json",
-        "Date": "Wed, 08 Feb 2023 02:34:37 GMT",
-        "ETag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A37.8000391Z\u0027\u0022",
+        "Date": "Wed, 15 Feb 2023 03:36:37 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A37.7459719Z\u0027\u0022",
         "Location": "https://zedy-table.table.cosmos.azure.com/gocosmosZ(PartitionKey=\u0027gear-surf-surfboards\u0027,RowKey=\u002768719518390\u0027)",
         "Preference-Applied": "return-no-content"
       },
@@ -134,35 +134,35 @@
         "Authorization": "Sanitized",
         "Dataserviceversion": "3.0",
         "User-Agent": "azsdk-go-aztables/v1.0.1 (go1.19; Windows_NT)",
-        "X-Ms-Date": "Wed, 08 Feb 2023 02:34:37 GMT",
+        "X-Ms-Date": "Wed, 15 Feb 2023 03:36:37 GMT",
         "X-Ms-Version": "2019-02-02"
       },
       "RequestBody": null,
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; odata=minimalmetadata",
-        "Date": "Wed, 08 Feb 2023 02:34:37 GMT",
+        "Date": "Wed, 15 Feb 2023 03:36:37 GMT",
         "Transfer-Encoding": "chunked"
       },
       "ResponseBody": {
         "value": [
           {
-            "odata.etag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A37.2888583Z\u0027\u0022",
+            "odata.etag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A37.1935239Z\u0027\u0022",
             "Name": "Ocean Surfboard",
             "PartitionKey": "gear-surf-surfboards",
             "Quantity": 8,
             "RowKey": "68719518388",
             "Sale": true,
-            "Timestamp": "2023-02-08T02:34:37.2888583Z"
+            "Timestamp": "2023-02-15T03:36:37.1935239Z"
           },
           {
-            "odata.etag": "W/\u0022datetime\u00272023-02-08T02%3A34%3A37.8000391Z\u0027\u0022",
+            "odata.etag": "W/\u0022datetime\u00272023-02-15T03%3A36%3A37.7459719Z\u0027\u0022",
             "Name": "Sand Surfboard",
             "PartitionKey": "gear-surf-surfboards",
             "Quantity": 5,
             "RowKey": "68719518390",
             "Sale": false,
-            "Timestamp": "2023-02-08T02:34:37.8000391Z"
+            "Timestamp": "2023-02-15T03:36:37.7459719Z"
           }
         ],
         "odata.metadata": "https://zedy-table.table.cosmos.azure.com/$metadata#gocosmosZ"
@@ -176,14 +176,14 @@
         "Accept-Encoding": "gzip",
         "Authorization": "Sanitized",
         "User-Agent": "azsdk-go-aztables/v1.0.1 (go1.19; Windows_NT)",
-        "X-Ms-Date": "Wed, 08 Feb 2023 02:34:38 GMT",
+        "X-Ms-Date": "Wed, 15 Feb 2023 03:36:38 GMT",
         "X-Ms-Version": "2019-02-02"
       },
       "RequestBody": null,
       "StatusCode": 204,
       "ResponseHeaders": {
         "Content-Type": "application/json",
-        "Date": "Wed, 08 Feb 2023 02:34:38 GMT"
+        "Date": "Wed, 15 Feb 2023 03:36:37 GMT"
       },
       "ResponseBody": null
     }
